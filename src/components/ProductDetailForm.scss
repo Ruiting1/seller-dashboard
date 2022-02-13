@@ -1,0 +1,27 @@
+.product-detail-form-container {
+    padding: 50px 20px 50px 20px;
+    .ant-form-item-label label {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    input.ant-input {
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        outline: 0;
+    }
+    .ant-radio-button-wrapper-checked {
+        background: black !important;
+        border-color: black !important;
+    }
+    .form-button .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: flex-end;
+        button {
+            margin: 0 20px;
+        }
+        .ant-btn-primary {
+            background-color: black;
+        }
+    }
+}
